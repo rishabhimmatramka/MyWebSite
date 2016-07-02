@@ -1,0 +1,23 @@
+1465791245214	Move 'home.html' to 'webapp'
+1465801240491	Move 'home.html' to 'WEB-INF'
+1465801243677	Move 'index.jsp' to 'WEB-INF'
+1465801246437	Move 'login.html' to 'WEB-INF'
+1465801249971	Move 'MyWebPage.jsp' to 'WEB-INF'
+1465962970642	Move 'js' to 'resources'
+1465962978070	Move 'images' to 'resources'
+1465962983273	Move 'fonts' to 'resources'
+1465962990110	Move 'css' to 'resources'
+1465963010363	Move 'index.jsp' to 'views'
+1465963012626	Move 'MyWebPage.jsp' to 'views'
+1465963014312	Move 'home.html' to 'views'
+1465963016465	Move 'login.html' to 'views'
+1465963070007	Move 'java' to 'webapp'
+1465963075899	Delete element
+1465963079543	Delete element
+1465963084697	Delete element
+1465963088331	Delete element
+1465963093989	Delete element
+1465963110450	Move 'java' to 'main'
+1465966181307	Delete element
+1466059630130	Delete element
+1466059663951	Move 'dao' to 'musichub'

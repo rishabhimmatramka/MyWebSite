@@ -1,0 +1,50 @@
+package com.niit.musichub.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Product implements Serializable {
+
+	@Id
+	private String Id;
+	private String name;
+	private String type;
+	private String supplier;
+
+	public String getId() {
+		return Id;
+	}
+
+	public void setId(String Id) {
+		this.Id = Id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public String getSupplier() {
+		return supplier;
+	}
+
+	public void setSupplier(String supplier) {
+		this.supplier = supplier;
+	}
+
+}

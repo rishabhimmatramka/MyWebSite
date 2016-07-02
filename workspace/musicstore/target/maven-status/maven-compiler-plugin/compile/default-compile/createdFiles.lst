@@ -1,0 +1,5 @@
+com\niit\musichub\controller\HomeController.class
+com\niit\musichub\dao\ProductDAOImpl.class
+com\niit\musichub\dao\UserDAO.class
+com\niit\musichub\model\Product.class
+com\niit\musichub\dao\ProductDAO.class

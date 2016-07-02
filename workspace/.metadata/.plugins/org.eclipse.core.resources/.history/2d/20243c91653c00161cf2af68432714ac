@@ -1,0 +1,6 @@
+package com.niit.musichub.model;
+
+public class User {
+private String UserID;
+
+}
