@@ -1,0 +1,5 @@
+package com.niit.musichub.controller;
+
+public class CategoryController {
+
+}

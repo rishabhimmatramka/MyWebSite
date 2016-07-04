@@ -13,4 +13,11 @@
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="com.niit.musichub.model.Category"/>
+<fullyQualifiedTypeName name="com.niit.musichub.model.Product"/>
+<fullyQualifiedTypeName name="com.niit.musichub.dao.CategoryDAO"/>
+<fullyQualifiedTypeName name="com.niit.musichub.daoimpl.CategoryDAOImpl"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
 </qualifiedTypeNameHistroy>

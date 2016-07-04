@@ -11,6 +11,7 @@ public class Product implements Serializable {
 
 	@Id
 	private String Id;
+	@Column
 	private String name;
 	private String type;
 	private String supplier;

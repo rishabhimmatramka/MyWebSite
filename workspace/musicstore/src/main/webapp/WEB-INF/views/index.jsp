@@ -34,7 +34,7 @@
 				</li>
 				
 				<li>
-					<a href="#"> Login </a>
+					<a href="category"> Category </a>
 				</li>
 				
 				<li>

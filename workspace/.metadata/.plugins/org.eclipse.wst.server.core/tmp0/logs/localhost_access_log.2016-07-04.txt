@@ -1,0 +1,13 @@
+127.0.0.1 - - [04/Jul/2016:09:24:33 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:24:37 +0530] "GET /musicstore/ HTTP/1.1" 404 1016
+127.0.0.1 - - [04/Jul/2016:09:34:40 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:41 +0530] "GET /musicstore/ HTTP/1.1" 200 4272
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:42 +0530] "GET /musicstore/resources/css/style.css;jsessionid=47397C190A2F49C07C0603F3E35920F9 HTTP/1.1" 200 1520
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:42 +0530] "GET /musicstore/resources/css/bootstrap.min.css;jsessionid=47397C190A2F49C07C0603F3E35920F9 HTTP/1.1" 200 121260
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:42 +0530] "GET /musicstore/resources/js/bootstrap.min.js;jsessionid=47397C190A2F49C07C0603F3E35920F9 HTTP/1.1" 200 36868
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:42 +0530] "GET /musicstore/resources/js/script.js;jsessionid=47397C190A2F49C07C0603F3E35920F9 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:43 +0530] "GET /musicstore/resources/resources/images/20150607_160943.jpg HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:43 +0530] "GET /musicstore/resources/resources/images/20150607_161002.jpg HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:43 +0530] "GET /musicstore/resources/resources/images/20150607_160950.jpg HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:43 +0530] "GET /musicstore/resources/css/%3Cc:url%20value=%22/resources/images/20150607_161002.jpg%22/%3E HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:09:34:49 +0530] "GET /musicstore/category HTTP/1.1" 500 5865

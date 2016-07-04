@@ -37,13 +37,13 @@ color: #000305;
 }
 
 #slide1 {
-	background: url('<c:url value="/resources/images/20150607_160943.jpg"/>') top center no-repeat; 
+	background: url('../resources/images/20150607_160943.jpg') top center no-repeat; 
 }
 #slide2 {
-	background: url('<c:url value="/resources/images/20150607_160950.jpg"/>') top center no-repeat; 
+	background: url('../resources/images/20150607_160950.jpg') top center no-repeat; 
 }
 #slide3 {
-	background: url('<c:url value="/resources/images/20150607_161002.jpg"/>') top center no-repeat; 
+	background: url('../resources/images/20150607_161002.jpg') top center no-repeat; 
 }
 
 #myrow1 {

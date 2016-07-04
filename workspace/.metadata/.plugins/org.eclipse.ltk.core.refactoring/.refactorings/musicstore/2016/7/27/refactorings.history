@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;ProductDAOImpl.java&apos; to &apos;daoimpl&apos;" description="Move &apos;ProductDAOImpl.java&apos; to &apos;daoimpl&apos;" destination="src/main/java/com/niit/musichub/daoimpl" element1="src/main/java/com/niit/musichub/dao/ProductDAOImpl.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1467469866987" updateReferences="true"/>
+</session>

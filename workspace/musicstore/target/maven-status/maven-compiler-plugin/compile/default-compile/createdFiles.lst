@@ -1,5 +1,11 @@
 com\niit\musichub\controller\HomeController.class
-com\niit\musichub\dao\ProductDAOImpl.class
-com\niit\musichub\dao\UserDAO.class
+com\niit\musichub\dao\CategoryDAO.class
 com\niit\musichub\model\Product.class
+com\niit\musichub\model\Category.class
+com\niit\musichub\controller\CategoryController.class
+com\niit\musichub\dao\UserDAO.class
+com\niit\musichub\daoimpl\ProductDAOImpl.class
+com\niit\musichub\daoimpl\CategoryDAOImpl.class
 com\niit\musichub\dao\ProductDAO.class
+com\niit\musichub\testClasses\UserTest.class
+com\niit\musichub\model\User.class

@@ -1,0 +1,11 @@
+package com.niit.musichub.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table
+public class Category {
+
+	
+}

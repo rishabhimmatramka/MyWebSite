@@ -1,0 +1,5 @@
+package com.niit.musichub.testClasses;
+
+public class ApplicationContextConfig {
+
+}

@@ -1,26 +1,19 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-
 <meta name="description" content=" " >
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="/WEB-INF/resources/css/bootstrap.min.css" >
-<link rel="stylesheet" href="/WEB-INF/resources/resources/css/style.css" >
-<script src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>  
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>  
-<script src="JavaScript1.js"></script>
-
+<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.min.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/resources/css/style.css"/>">
+<script src="<c:url value="https://code.angularjs.org/1.3.0-beta.5/angular.js"/>"></script>  
+<script src="<c:url value="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"/>"></script>  
+<script src="<c:url value="JavaScript1.js"/>"></script>
 </head>
-
 <body>
-<script src="/WEB-INF/resources/js/jquery-1.12.4.min.js"></script>
-<script src="/WEB-INF/resources/js/bootstrap.min.js"></script>
-<script src="/WEB-INF/resources/js/script.js"></script>
+<script src="<c:url value="/resources/js/jquery-1.12.4.min.js"/>"></script>
+<script src="<c:url value="/resources/js/bootstrap.min.js"/>"></script>
+<script src="<c:url value="/resources/js/script.js"/>"></script>
 
 <div class="container" id="main">
 		
@@ -33,13 +26,13 @@
 				  <span class="icon-bar"></span>
 		  </button>
 		  
-		  	<a class="navbar-brand" href="#"><img src="/WEB-INF/resources/images/musichub-logo-text-01.png" height=20px width=75px alt="YOUR LOGO"></a>
+		  	<a class="navbar-brand" href="#"><img src="<c:url value="/resources/images/musichub-logo-text-01.png"/>" height=20px width=75px alt="YOUR LOGO"></a>
 		  	</div>
 		  	<div class="collapse navbar-collapse" id="myNavbar">
 		  		<ul class="nav navbar-nav">
 		  			
 		  			<li class="active">
-		  			<a href="<c:url value="/" />"/>Home</a>
+		  			<a href="<c:url value="/"/>">Home</a>
 		  			</li>
 		  			
 		  			<li class="dropdown">
@@ -68,7 +61,7 @@
 		  		
 		  		<form class="navbar-form pull-left">
 		  			<input type="text" class="form-control" placeholder="Search this site..." id="SearchInput">
-		  			<button type="submit" class="btn btn-default"><img src="/WEB-INF/resources/images/glyphicons-28-search.png" height=20px width=14px alt= " hi "></button>
+		  			<button type="submit" class="btn btn-default"><img src="<c:url value="/resources/images/glyphicons-28-search.png"/>" height=20px width=14px alt= " hi "></button>
 		  		</form>
 		  		
 		  		<ul class="nav navbar-nav pull-right">
@@ -77,15 +70,15 @@
 		  				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/WEB-INF/resources/images/glyphicons-4-user.png" height=12px> My Account<strong class="caret"></strong></a>
 		  				<ul class="dropdown-menu">
 		  					<li>
-		  						<a href="#"> <img src= "/WEB-INF/resources/images/glyphicons-44-group.png" height =12px width=16px>  SignUp </a>
+		  						<a href="#"> <img src= "<c:url value="/resources/images/glyphicons-44-group.png"/>" height =12px width=16px>  SignUp </a>
 		  					</li>
 		  					
 		  					<li>
-		  						<a href="#"><img src="/WEB-INF/resources/images/glyphicons-387-log-in.png" height =12px width=16px>  Login </a>
+		  						<a href="#"><img src="<c:url value="/resources/images/glyphicons-387-log-in.png"/>" height =12px width=16px>  Login </a>
 		  					</li>
 		  			
 		  					<li>
-		  						<a href="#"><img src="/WEB-INF/resources/images/glyphicons-281-settings.png" height =12px width=16px>  Settings </a>
+		  						<a href="#"><img src="<c:url value="/resources/images/glyphicons-281-settings.png"/>" height =12px width=16px>  Settings </a>
 		  					</li>	
 		  				</ul>
 		  			</li>
@@ -95,7 +88,9 @@
 		  	</div>
 		  </div>
 	</div>
-
+	<br><br><br><br><br><br><br><br><br>
+                                        HELLO WE ARE A NEW COMPANY. WORK IN PROGRESS.
+ <br><br><br><br><br><br><br><br><br>	
 	<div class="carousel slide" id="mycarousel">
 		
 		<ol class="carousel-indicators">
@@ -166,9 +161,9 @@
 		</div>
 		
 	</div>
-	
-</div>
 
+
+ </div>
 <footer id= "footer">
 	<div class="container">
 		<div class="row" id="myrow2">
@@ -179,10 +174,12 @@
 				<p></p>
 			</div>
 			<div class="col-sm-2 feature">
-				<a href="#" color="red"> Privacy Terms </a>
+				<a href="#"> Privacy Terms </a>
 			</div>
 		</div>
 	</div>		
 </footer>
+
+ 
 </body>
 </html>

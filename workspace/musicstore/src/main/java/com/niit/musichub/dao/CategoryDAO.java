@@ -1,0 +1,20 @@
+package com.niit.musichub.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+import com.niit.musichub.model.Category;
+
+public interface CategoryDAO {
+	
+	public List<Category> list();
+
+	public Category getCategory(String Id);
+
+	public Category getCategoryByName(String Name);
+
+	public void saveOrUpdate(Category category);
+
+	public void delete(String Id);
+}

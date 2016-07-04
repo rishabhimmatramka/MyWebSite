@@ -25,5 +25,12 @@ public class HomeController {
 		System.out.println("hello");
 		return "AllProducts";
 	}
+	
+	@RequestMapping("category")
+	public String Category()
+	{
+		System.out.println("hello");
+		return "category";
+	}
 }
 
